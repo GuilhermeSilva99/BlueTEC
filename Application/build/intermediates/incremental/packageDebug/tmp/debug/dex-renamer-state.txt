@@ -1,0 +1,4 @@
+#Mon Nov 02 03:22:40 BRT 2020
+base.0=D\:\\UFAPE\\BCC - 2020.3 - PLE\\SISTEMAS DISTRIBUIDOS - 2020.3\\gitBlueChat - Copia (2)\\android-BluetoothChat\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2014 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.bluetoothchat"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="14"
+23-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="27" />
+24-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml
+25
+26    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+27
+28    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+28-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:26:5-73
+28-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:26:22-71
+29    <uses-permission android:name="android.permission.BLUETOOTH" />
+29-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:27:5-67
+29-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:27:22-65
+30
+31    <application
+31-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:29:5-51:19
+32        android:allowBackup="true"
+32-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:30:9-35
+33        android:debuggable="true"
+34        android:icon="@drawable/ic_launcher"
+34-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:31:9-45
+35        android:label="@string/app_name"
+35-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:32:9-41
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:33:9-40
+38        <activity
+38-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:35:9-43:20
+39            android:name="com.example.android.bluetoothchat.MainActivity"
+39-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:36:13-41
+40            android:configChanges="orientation|keyboardHidden"
+40-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:37:13-63
+41            android:label="@string/app_name" >
+41-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:38:13-45
+42            <intent-filter>
+42-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:39:13-42:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:40:17-68
+43-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:40:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:41:17-76
+45-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:41:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:45:9-49:63
+49            android:name="com.example.android.bluetoothchat.DeviceListActivity"
+49-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:46:13-47
+50            android:configChanges="orientation|keyboardHidden"
+50-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:47:13-63
+51            android:label="@string/select_device"
+51-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:48:13-50
+52            android:theme="@android:style/Theme.Holo.Dialog" />
+52-->D:\UFAPE\BCC - 2020.3 - PLE\SISTEMAS DISTRIBUIDOS - 2020.3\gitBlueChat - Copia (2)\android-BluetoothChat\Application\src\main\AndroidManifest.xml:49:13-61
+53    </application>
+54
+55</manifest>

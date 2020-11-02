@@ -13,53 +13,73 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-<LinearLayout
-      xmlns:android="http://schemas.android.com/apk/res/android"
-      android:orientation="vertical"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:id="@+id/sample_main_layout">
-
-    <ViewAnimator
-          android:id="@+id/sample_output"
-          android:layout_width="match_parent"
-          android:layout_height="0px"
-          android:layout_weight="1">
-
-        <ScrollView
-              style="@style/Widget.SampleMessageTile"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-
-            <TextView
-                  style="@style/Widget.SampleMessage"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:paddingLeft="@dimen/horizontal_page_margin"
-                  android:paddingRight="@dimen/horizontal_page_margin"
-                  android:paddingTop="@dimen/vertical_page_margin"
-                  android:paddingBottom="@dimen/vertical_page_margin"
-                  android:text="@string/intro_message" />
-        </ScrollView>
-
-        <fragment
-              android:name="com.example.android.common.logger.LogFragment"
-              android:id="@+id/log_fragment"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent" />
-
-    </ViewAnimator>
-
-    <View
-          android:layout_width="match_parent"
-          android:layout_height="1dp"
-          android:background="@android:color/darker_gray" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sample_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <FrameLayout
-          android:id="@+id/sample_content_fragment"
-          android:layout_weight="2"
-          android:layout_width="match_parent"
-          android:layout_height="0px" />
+        android:id="@+id/sample_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/listen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="50dp"
+            android:text="Listen" />
+
+        <Button
+            android:id="@+id/list_devices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:text="LIST DEVICES" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="20dp"
+            android:text="Status" />
+        <ListView
+            android:id="@+id/lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="400dp">
+        </ListView>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="20dp"
+            android:text="message" />
+
+        <EditText
+            android:id="@+id/edit_text_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="120dp"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_gravity="bottom"
+            android:text="Send" />
+    </FrameLayout>
 
 </LinearLayout>
 
